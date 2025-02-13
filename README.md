@@ -12,3 +12,7 @@ ksh hostname "command"
 ```
 
 Wrapper should let you log in and execute commands both on EKS nodes and on regular EC2 boxes.
+
+## Requirements
+* kubectl
+* kubectx
