@@ -43,7 +43,7 @@ case "$target_node" in
           ;;
         *.ec2.* )
           kubectx eks-prod-nva
-          kk8s_ssh
+          k8s_ssh
           ;;
         * )
         if [[ $target_node == *.node.al ]];
